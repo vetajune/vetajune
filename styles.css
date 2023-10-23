@@ -1,0 +1,106 @@
+/* Reset some default styles to ensure consistency across browsers */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif; /* Change the font-family for all text elements to Georgia with a fallback to serif */
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+    font-size: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: lightblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Align the "logo.png" image to the left */
+.logo-image {
+    float: left;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #eee; /* Light grey background for the navigation */
+    text-align: center;
+    padding: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00008B; /* Dark blue text for the navigation links */
+    font-size: 24px; /* Larger font size for navigation text */
+}
+
+/* Style the section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    background-color: lightblue;
+    color: #00008B;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Center-align the header image */
+.center-image {
+    text-align: center;
+}
+
+/*from https://www.w3schools.com/css/css3_transitions.asp*/
+/* Add styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #000; /* Link color on hover (black) */
+}
+
+@media (max-width: 768px) {
+    /* Styles for smaller screens */
+}
+
+/* Style each navigation link individually to make them bold */
+.home-link {
+    font-weight: bold; /* Make the "Home" link bold */
+}
+
+.productivity-link {
+    font-weight: bold; /* Make the "Productivity" link bold */
+}
+
+.study-link {
+    font-weight: bold; /* Make the "Study" link bold */
+}
+
+.about-link {
+    font-weight: bold; /* Make the "About" link bold */
+}

@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Productivity</title>
-<!-- Meta Tags -->
-<meta name="description" content="Discover productivity tips and tech tools for college students on 'Veta's Tech Tips.' Explore websites and apps personally recommended by Veta Mapes to boost your productivity and stay organized.">
-<meta name="keywords" content="productivity, productivity tips, college students, tech tools, Notion, iCal, Google Calendar, Forest, Veta's Tech Tips">
-<meta name="author" content="Veta Mapes">
+    <meta charset="utf-8">
+    <title>Productivity</title>
+    <!-- Meta Tags -->
+    <meta name="description" content="Discover productivity tips and tech tools for college students on 'Veta's Tech Tips.' Explore websites and apps personally recommended by Veta Mapes to boost your productivity and stay organized.">
+    <meta name="keywords" content="productivity, productivity tips, college students, tech tools, Notion, iCal, Google Calendar, Forest, Veta's Tech Tips">
+    <meta name="author" content="Veta Mapes">
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+<style>
+    /*ADDEMBEDDED*/
+    
+    
+</style>
+    
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9E35W5E0G"></script>
 <script>
@@ -20,45 +31,106 @@
 
 
 
-
 <body>
     <header>
-        <h1><img src="logo.png" alt="logo" width="100" height="100"></h1>
+        <img src="logo.png" alt="Logo" width="100" height="100" class="logo-image">
         <nav>
-            <ul><li><a href="index.html">Home</a></li>
-                <li><a href="productivity.html">Productivity</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productivity.html" class="productivity-link">Productivity</a></li>
                 <li><a href="study.html">Study</a></li>
                 <li><a href="about.html">About</a></li>
             </ul>
-
         </nav>
     </header>
+
+
     <section>
+        <h3 class="center-image">
+            <img src="header.png" alt="Header" width="500" height="200">
+        </h3>
+
         <article>
-            <h3>
-                <img src="header.png" alt="logo" width="500" height="200">
-            </h3>
             <h2>PRODUCTIVITY</h2>
-        <p>In college, balancing work, school, and extracurriculars can be challenging: here are some my recommendations to help keep up!</p>
+            <br>
+
+            <p>In college, balancing work, school, and extracurriculars can be challenging: here are some my recommendations to help keep up!</p>
         </article>
+
     </section>
+
+
     <section>
-    <h4>WEBSITES</h4>
-    <img src="notion.png" alt="notion logo" width="200" height="100">
-    <p>Notion: Notion is your all-in-one workspace for productivity. It's useful for many things such as notetaking, project management, goal tracking, etc. Create customized study plans, track your progress, and collaborate with peers seamlessly.
-        - Vetas Experience: I use this for everything, from taking notes in class to keeping track of goals. Notion is very customizable!</p>
-    <h4>APPS</h4>
-    <img src="Picture1.jpg" alt="ical logo" width="100" height="100">
-    <p>ICal: iCal, Apple's calendar app, syncs your calendar across all your Apple devices. You can create events, set custom reminders, and color-code your calendar for easy organization. This is user friendly and has the basic features you would want in a calendar app.
-        - Vetas Experience: I use this to sync my work, school, and sorority calendar. I color code it to make it visually appealing, and even sync my blackboard assignments to the calendar. It’s nice for me as an apple user because it’s on my phone and my computer.</p>
-    <img src="picture2.png" alt="google cal logo" width="200" height="100">
-    <p>Google Calendar: If you are not an apple user, google calendar is the app for you. This is accessible across multiple devices, such as your phone, laptop, and tablet. Google calendar is like ICal- You can create events, set custom reminders, and color-code your calendar. They have a few more additional features though, according to zapier.com- “If you're trying to schedule a coffee or dinner with a friend (or anything else, really), you can offer a few different times and dates just by selecting them in the sidebar. Whichever slot they choose will then get confirmed on your calendar.”
-        - Vetas Experience: Before I became an apple user, google calendar was my go to. They have a lot of great features, including being able to sync your blackboard assignments.</p>
-    <img src="picture3.png" alt="forest logo" width="100" height="100">
-    <p>Forest: Plant a virtual tree when you start a task, and if you leave the app before completing it, your tree withers. It's a fun and effective way to build better study habits.
-        - Vetas Experience: This app is a great motivator to stay on task! If you are the nature loving type, it pulls at the heart strings.</p>
+        <h4>WEBSITES</h4>
+
+        <div class="image-text-container">
+            <div class="image">
+                <img src="notion.png" alt="Notion Logo" width="200" height="100">
+            </div>
+            <div class="text">
+                <p><b>Notion:</b> Notion is your all-in-one workspace for productivity. It's useful for many things such as notetaking, project management, goal tracking, etc. Create customized study plans, track your progress, and collaborate with peers seamlessly.</p>
+
+                <br>
+
+                <p><u>- Vetas Experience:</u> I use this for everything, from taking notes in class to keeping track of goals. Notion is very customizable!</p>
+            </div>
+        </div>
+
+        <h4>APPS</h4>
+
+        
+        <br> <!-- Add a break between sections -->
+        
+        <div class="image-text-container">
+            <div class="image">
+                <img src="Picture1.jpg" alt="iCal Logo" width="100" height="100">
+            </div>
+            <div class="text">
+                <p><b>ICal:</b> iCal, Apple's calendar app, syncs your calendar across all your Apple devices. You can create events, set custom reminders, and color-code your calendar for easy organization. This is user-friendly and has the basic features you would want in a calendar app.</p>
+
+                <br>
+
+                <p><u>- Vetas Experience:</u> I use this to sync my work, school, and sorority calendar. I color code it to make it visually appealing, and even sync my Blackboard assignments to the calendar. It’s nice for me as an Apple user because it’s on my phone and my computer.</p>
+            </div>
+        </div>
+        
+        <br> <!-- Add a break between sections -->
+        
+        <div class="image-text-container">
+            <div class="image">
+                <img src="picture2.png" alt="Google Calendar Logo" width="200" height="100">
+            </div>
+            <div class="text">
+                <p><b>Google Calendar:</b> If you are not an Apple user, Google Calendar is the app for you. This is accessible across multiple devices, such as your phone, laptop, and tablet. Google Calendar is like iCal - You can create events, set custom reminders, and color-code your calendar. They have a few more additional features, according to zapier.com: “If you're trying to schedule a coffee or dinner with a friend (or anything else, really), you can offer a few different times and dates just by selecting them in the sidebar. Whichever slot they choose will then get confirmed on your calendar.”</p>
+
+                <br>
+
+                <p><u>- Vetas Experience:</u> Before I became an Apple user, Google Calendar was my go-to. They have a lot of great features, including being able to sync your Blackboard assignments.</p>
+            </div>
+        </div>
+        
+        <br> <!-- Add a break between sections -->
+        
+        <div class="image-text-container">
+            <div class="image">
+                <img src="picture3.png" alt="Forest Logo" width="100" height="100">
+            </div>
+            <div class="text">
+                <p><b>Forest:</b> Plant a virtual tree when you start a task, and if you leave the app before completing it, your tree withers. It's a fun and effective way to build better study habits.</p>
+
+                <br>
+
+                <p><u>- Vetas Experience:</u>
+                This app is a great motivator to stay on task! If you are the nature-loving type, it pulls at the heartstrings.</p>
+            </div>
+        </div>
+        
+        
+
 </section>
 </body>
+
+
 <footer>
     <p>copyright Vetas Tech Tips 2023</p>
 </footer>
